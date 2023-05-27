@@ -1,0 +1,86 @@
+.player{
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 70px;
+}
+    
+.p0{
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.p1{
+    bottom: 15px;
+    left: -60px;
+}
+
+.p2{
+    bottom: 150px;
+    left: -90px;
+}
+
+.p3{
+    top: 150px;
+    left: -90px;
+}
+
+.p4{
+    top: 15px;
+    left: -60px;
+}
+
+.p5{
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.p6{
+    top: 15px;
+    right: -60px;
+}
+
+.p7{
+    top: 150px;
+    right: -90px;
+}
+
+.p8{
+    bottom: 150px;
+    right: -90px;
+}
+.p9{
+    bottom: 15px;
+    right: -60px;
+}
+
+.container{
+    color: black;
+}   
+
+.username{
+    font-weight: bold;
+    font-size: medium;
+    margin: 5px 0 10px 0;
+}
+
+.chip{
+    padding: 10px 0;
+    background-color: white;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.role{
+    background-color: black;
+    color: white;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+}
+
+p{
+    margin: 0;
+    padding: 0; 
+}

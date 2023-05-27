@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useEffect, useState} from 'react'
+import Table from './components/table'
+import ButtonContainer from './components/buttonContainer'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+function App(){
+
+  const [backendData, setBackendData] = useState([{}])
+
+  useEffect(()=>{
+    fetch("/test").then(
+      response => response.json()
+    ).then(
+      data =>{
+        console.log(data)
+        setBackendData(data)
+      }
+    )
+  }, [])
+
+  return(
+    <div>
+      <Table />
+      <ButtonContainer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
