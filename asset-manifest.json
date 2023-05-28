@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/ThaksinCK.io/Ladkrabang888/static/css/main.6d938414.css",
-    "main.js": "/ThaksinCK.io/Ladkrabang888/static/js/main.58517551.js",
-    "index.html": "/ThaksinCK.io/Ladkrabang888/index.html",
-    "main.6d938414.css.map": "/ThaksinCK.io/Ladkrabang888/static/css/main.6d938414.css.map",
-    "main.58517551.js.map": "/ThaksinCK.io/Ladkrabang888/static/js/main.58517551.js.map"
+    "main.css": "/ThaksinCK.io/poker-client/static/css/main.6d938414.css",
+    "main.js": "/ThaksinCK.io/poker-client/static/js/main.58517551.js",
+    "index.html": "/ThaksinCK.io/poker-client/index.html",
+    "main.6d938414.css.map": "/ThaksinCK.io/poker-client/static/css/main.6d938414.css.map",
+    "main.58517551.js.map": "/ThaksinCK.io/poker-client/static/js/main.58517551.js.map"
   },
   "entrypoints": [
     "static/css/main.6d938414.css",
