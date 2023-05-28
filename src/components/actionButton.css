@@ -11,7 +11,7 @@ button{
     font-weight: bold;
 }
 
-.bet{
+.bet, .raise{
     background-color: #FFD93D;
 }
 

@@ -1,83 +1,90 @@
 .player{
     position: absolute;
-    border: 1px solid black;
     border-radius: 10px;
-    width: 70px;
+    background-color: #374259;
+    color: white;
+    width: auto;
+    padding: 10px;
+}
+
+.player-active{
+    border: 2px solid #FFFF00;
+    box-shadow: 0 0 10px #FFFF00;
+}
+
+.player-fold{
+    opacity: 0.5;
+}
+
+.username{
+    font-size: small;
+    color:  red;
+}
+
+.chip{
+    font-size: larger;
+    margin: 5px 0;
+    font-weight: bold;
+    color: green;
+}
+
+.role{
+    font-size: small;
+    font-weight: 550;
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px;
 }
     
 .p0{
-    bottom: -30px;
+    bottom: -5%;
     left: 50%;
     transform: translateX(-50%)
 }
 
 .p1{
-    bottom: 15px;
-    left: -60px;
+    bottom: 5%;
+    left:-25%;
 }
 
 .p2{
-    bottom: 150px;
-    left: -90px;
+    bottom: 30%;
+    left: -30%;
 }
 
 .p3{
-    top: 150px;
-    left: -90px;
+    top: 30%;
+    left: -30%;
 }
 
 .p4{
-    top: 15px;
-    left: -60px;
+    top: 5%;
+    left: -25%;
 }
 
 .p5{
-    top: -20px;
+    top: -5%;
     left: 50%;
     transform: translateX(-50%)
 }
 
 .p6{
-    top: 15px;
-    right: -60px;
+    top: 5%;
+    right: -25%;
 }
 
 .p7{
-    top: 150px;
-    right: -90px;
+    top: 30%;
+    right: -30%;
 }
 
 .p8{
-    bottom: 150px;
-    right: -90px;
+    bottom: 30%;
+    right: -30%;
 }
 .p9{
-    bottom: 15px;
-    right: -60px;
-}
-
-.container{
-    color: black;
-}   
-
-.username{
-    font-weight: bold;
-    font-size: medium;
-    margin: 5px 0 10px 0;
-}
-
-.chip{
-    padding: 10px 0;
-    background-color: white;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-}
-
-.role{
-    background-color: black;
-    color: white;
-    border-end-end-radius: 10px;
-    border-end-start-radius: 10px;
+    bottom: 5%;
+    right:-25%;
 }
 
 p{

@@ -5,7 +5,7 @@ function ButtonContainer(){
     return(
         <div >
             <div className="button-container">
-                <ActionButton ac='bet'></ActionButton>
+                <ActionButton ac='raise'></ActionButton>
                 <ActionButton ac='call'></ActionButton>
                 <ActionButton ac='fold'></ActionButton>
             </div>

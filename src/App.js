@@ -6,16 +6,16 @@ function App(){
 
   const [backendData, setBackendData] = useState([{}])
 
-  useEffect(()=>{
-    fetch("/test").then(
-      response => response.json()
-    ).then(
-      data =>{
-        console.log(data)
-        setBackendData(data)
-      }
-    )
-  }, [])
+  // useEffect(()=>{
+  //   fetch("/test").then(
+  //     response => response.json()
+  //   ).then(
+  //     data =>{
+  //       console.log(data)
+  //       setBackendData(data)
+  //     }
+  //   )
+  // }, [])
 
   return(
     <div>
