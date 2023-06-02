@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/poker-client/static/css/main.6d938414.css",
-    "main.js": "/poker-client/static/js/main.58517551.js",
+    "main.css": "/poker-client/static/css/main.2ab22fc1.css",
+    "main.js": "/poker-client/static/js/main.cce9d6d1.js",
     "index.html": "/poker-client/index.html",
-    "main.6d938414.css.map": "/poker-client/static/css/main.6d938414.css.map",
-    "main.58517551.js.map": "/poker-client/static/js/main.58517551.js.map"
+    "main.2ab22fc1.css.map": "/poker-client/static/css/main.2ab22fc1.css.map",
+    "main.cce9d6d1.js.map": "/poker-client/static/js/main.cce9d6d1.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d938414.css",
-    "static/js/main.58517551.js"
+    "static/css/main.2ab22fc1.css",
+    "static/js/main.cce9d6d1.js"
   ]
 }
