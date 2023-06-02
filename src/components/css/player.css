@@ -7,6 +7,27 @@
     padding: 10px;
 }
 
+.player button{
+    display: none;
+}
+
+.none-player{
+    position: absolute;
+}
+.none-player button{
+    width: 50px;
+    height: 50px;
+    font-size: xx-large;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: blue;
+}
+
+.none-player p{
+    display: none;
+}
+
 .player-active{
     border: 2px solid #FFFF00;
     box-shadow: 0 0 10px #FFFF00;

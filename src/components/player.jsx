@@ -1,5 +1,5 @@
 import React from 'react'
-import './player.css'
+import './css/player.css'
 
 function Player(props){
     let cn = props.postion
@@ -12,6 +12,7 @@ function Player(props){
     return(
         <div className={cn}>
             <div className='container'>
+                <button className='add-butttoon'>+</button>
                 <p className='username'>{props.username}</p>
                 <p className='chip'>{props.chip}</p>
                 <p className='role'>{props.role}</p>

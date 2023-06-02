@@ -1,0 +1,12 @@
+nav{
+    padding: 15px 10px;
+    margin-bottom: 30px;
+    background-color: white;
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.nav-logo{
+    font-weight: bolder;
+}

@@ -1,7 +1,7 @@
 .table{
     position: relative;
     width: 60vw;
-    height: 75vh;
+    height: 70vh;
     background: rgb(91,123,97);
     background: radial-gradient(circle, rgba(91,123,97,1) 0%, rgba(75,108,82,1) 28%, rgba(45,72,50,1) 80%);
     border: 20px solid #855E42;

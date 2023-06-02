@@ -1,0 +1,42 @@
+button{
+    width: 70px;
+    height: 70px;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    border: 5px solid;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.bet, .raise{
+    background-color: #FFD93D;
+    border-color: #a88705;
+}
+
+.bet, .raise:hover{
+    background-color: #d0ac1c
+}
+
+.call{
+    background-color: #539165;
+    border-color: #366b45;
+
+}
+
+.call:hover{
+    background-color: #396e48
+}
+
+.fold{
+    background-color: red;
+    border-color: rgb(153, 2, 2);
+
+}
+
+.fold:hover{
+    background-color: rgb(200, 3, 3);
+}
